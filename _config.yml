@@ -1,0 +1,47 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+
+# Possible titles:
+# Building insight, Information from structure
+# Scaffolds of insight, constraint satisfaction, scaffolding insight,
+# chasing insight, information from structure, satisfying constraints,
+# scaffolds of information, scaffolds for information, information scaffolds
+# Undertetermined, Underdetermination
+#
+title: Satisfying Constraints
+#email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  A blog about information.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kuruga.github.io/" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  kuruga
+
+# Owner configuration
+# name and email are required (change code to remove these)
+# (leave the rest blank to disable the corresponding sharing button)
+owner:
+    name: Matti Kr&uumlger
+    email: kuruga@posteo.de
+    github: kuruga
+    twitter:
+    linkedin: https://jp.linkedin.com/in/mattikrueger
+    facebook:
+    google_plus:
+    youtube:
+
+# Disqus comments configuration (comments disabled if not specified)
+disqus_shortname: 'kuruga'
+
+# Build settings
+markdown: kramdown
+
+# Pagination
+#paginate: 2
+#paginate_path: "blog/:num"
