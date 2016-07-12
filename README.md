@@ -1,2 +1,1 @@
 # kuruga.github.io
-webpage
