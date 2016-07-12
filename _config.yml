@@ -42,6 +42,23 @@ disqus_shortname: 'kuruga'
 # Build settings
 markdown: kramdown
 
+# taken from original settings
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+
+# kramdown settings
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+
 # Pagination
 #paginate: 2
 #paginate_path: "blog/:num"
