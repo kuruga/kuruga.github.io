@@ -47,10 +47,7 @@ In this summarized representation the probability of an event can simply be obta
 
 ![biasedBinary](/media/2016-07-11/biasedBinary-1.png)
 
-For the event (1,0) where 0 is three times as likely as 1 this would correspond to: 
-
-$$0.25 \cdot 0.75 + 0.75 \cdot 0.25 $$ 
-$$= 2 \cdot (0.75  \cdot 0.25) = 0.375$$
+For the event (1,0) where 0 is three times as likely as 1 this would correspond to: <br> 0.25 * 0.75 + 0.75 * 0.25 = 2 * (0.75 * 0.25) = 0.375
 
 Feel free to take a look at [what I wrote about coins][blogCoins] if you also want to learn about binomial probability distributions.
 
