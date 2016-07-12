@@ -1,1 +1,0 @@
-# kuruga.github.io
