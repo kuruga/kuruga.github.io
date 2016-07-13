@@ -264,7 +264,7 @@ abline(v = 0.5, col = "red") # draw vertical line at actual bias
 The means are scattered around the actual bias but it seems that there is a tendency towards the center. 
 
 To have more clarity we make the computer work a little harder: <br>
-**10000 means** of **10000 coin tosses** each!
+**10000 means** of **1000 coin tosses** each!
 
 <a name='SampledFairBinomial'></a>
 
