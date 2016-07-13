@@ -37,7 +37,7 @@ But how do we know that a coin is perfectly balanced? <br>
 One answer is to **learn from data**.
 
 This means that we evaluate the outcome of actual coin tosses to infer how well the coin is balanced. <br>
-A balanced coin should be *fair* in the sense that it should land on each side approximately half of the time.
+A balanced coin should be *fair* in the sense that it should land on each side with the same probability.
 
 In *R* there are multiple ways to simulate tossing coins. 
 In the following example I use the inbuilt `sample()` function as the main component of a `FairCoinToss()` function. 
