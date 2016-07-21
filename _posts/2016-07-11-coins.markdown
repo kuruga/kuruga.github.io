@@ -42,7 +42,6 @@ A balanced coin should be *fair* in the sense that it should land on each side w
 In *R* there are multiple ways to simulate tossing coins. 
 In the following example I use the inbuilt `sample()` function as the main component of a `FairCoinToss()` function. 
 
-
 ```r
 FairCoinToss <- function(n = 1) {
   # Simulates n fair coin tosses.
@@ -89,7 +88,7 @@ FairCoinToss()
 ## [1] 0
 ```
 
-Conveniently the sample function allows drawing of multiple samples in one step. In the above `FairCoinToss()` function this functionality is preserved so that we can flip as many coins as we like with one function call in which the argument `n` is the number of coin tosses.
+The sample function also allows drawing of multiple samples in one step. In the above `FairCoinToss()` function this functionality is preserved so that we can flip as many coins as we like with one function call in which the argument `n` is the number of coin tosses.
 
 
 ```r
@@ -208,7 +207,7 @@ $$\bar{x} = \sum_{1}^{n}\left(x_i \cdot \frac{1}{n}\right)$$
 In this sum each entry receives a weight of \\(\frac{1}{n}\\).
 Therefore the relative influence of each value shrinks with each new sample which explains the decreasing fluctuation.
 
-But can such observations justificy drawing conclusions about the actual bias/fairness of a coin? 
+But can such observations justify drawing conclusions about the actual bias/fairness of a coin? 
 
 <a name='BinomialExperiments'></a>
 
@@ -541,4 +540,4 @@ Because of our knowledge about the shape of binomial probability distributions w
 However, in real life it is sometimes not possible to repeat an experiment thousands of times in order to replicate the probability distribution of a random variable. 
 In a future post I will write about some approaches which are used for making inferences even with relatively small sample sizes.
 
-[blogProbabilities]: /statistics/2016/07/11/Probabilities.html
+[blogProbabilities]: statistics/2016/07/11/Probabilities.html
